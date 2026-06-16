@@ -1,6 +1,11 @@
 # Bitget A-Tier Anomaly Scanner
 
-This Playbook describes the market behavior behind the Bitget A-tier anomaly scanner. It looks for moments when open interest, aggressive order flow, price direction, and liquidity are aligned enough to suggest a directional move may be starting. The strategy scans liquid perpetual contracts, ranks the strongest candidates, and outputs a signal for review instead of forcing a trade on every cycle.
+This repo is a standalone GetAgent Playbook package for the Bitget A-tier anomaly scanner.
+
+- GitHub repo: https://github.com/jiamicuisi-a11y/getagent-a-tier-anomaly-scanner
+- Live demo: http://56.155.138.109/quant
+
+It scans liquid Bitget perpetual contracts, ranks anomaly candidates, and emits signal-only output for review. The package is intentionally kept at the repository root so GetAgent Studio can import it without extra nesting.
 
 ## What it tries to capture
 
